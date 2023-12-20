@@ -24,7 +24,7 @@ export default function Home() {
 
   <div className="col-sm-4">
     <div className='personal-info'>
-    <p className='personal-role'> I'M <span className='person-name'>Shiyam Lawrence</span><br></br>Full Stack Web Developer</p>
+    <p className='personal-role'> IM <span className='person-name'>Shiyam Lawrence</span><br></br>Full Stack Web Developer</p>
        <button type="button" className="btn btn-outline-primary contact-me-btn">Contact Me</button>
   </div>
   </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import dokan from '@/Image/colorss.png'
-import dokanpro from '@/Image/pan.png'
-import dokans from '@/Image/dokan.png'
+
 import Image from 'next/image'
 
 export default function page() {
@@ -34,7 +33,7 @@ export default function page() {
 <a href='http://www.kaandhal.in' className="portfolio-link">
   <div className="portfolio-container">
     <Image
-      src={dokanpro}
+      src={dokan}
       width={400}
       height={230}
       className="portfolio-image"
@@ -50,7 +49,7 @@ export default function page() {
 <a href='Dokan' className="portfolio-link">
   <div className="portfolio-container">
     <Image
-      src={dokans}
+      src={dokan}
       width={400}
       height={230}
       className="portfolio-image"

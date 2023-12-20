@@ -13,7 +13,7 @@ import mysql from '@/Image/mysql.png'
 import react from '@/Image/react.png'
 import teanso from '@/Image/teanso.png'
 import kaandhal from '@/Image/Kaandhal.png'
-import dokan from '@/Image/dokan.png'
+
 
 export default function Home() {
   return (
@@ -266,7 +266,7 @@ export default function Home() {
 <a href='Plugins' className="portfolio-link">
   <div className="portfolio-container">
     <Image
-      src={dokan}
+      src={teanso}
       width={400}
       height={230}
       className="portfolio-image"

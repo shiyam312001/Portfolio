@@ -52,7 +52,7 @@ export default function Home() {
 <div className='about-content'>
     <h2 className='about-title'>About</h2> 
     <p className='about-description'>
-  <hr
+  {/* <hr
     style={{
       background: '#F0BF6C',
       width: '32px',
@@ -62,7 +62,7 @@ export default function Home() {
       display: 'inline-block', // Keeps the hr and text on the same line
       margin: '5px 10px', // Adjust margin as needed
     }}
-  />
+  /> */}
   I am a web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do.
 </p>
 

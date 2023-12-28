@@ -25,16 +25,11 @@ export default function Home() {
   <div className="col-sm-4">
     <div className='personal-info'>
     <p className='personal-role'> IM <span className='person-name'>Shiyam Lawrence</span><br></br>Full Stack Web Developer</p>
-       <button type="button" className="btn btn-outline-primary contact-me-btn">Contact Me</button>
+       <button type="button" className="btn btn-outline-primary contact-me-btn"><a className='contact-me-btn' href='#contact'>Contact Me</a></button>
   </div>
   </div>
   <div className="col-sm-8">
-  <Image
-   src={Profile}
-   width={200}
-   height={200}
-   alt="Picture of the author"
- />
+  
   </div>
   <div className="col-sm">
   
@@ -63,7 +58,7 @@ export default function Home() {
       margin: '5px 10px', // Adjust margin as needed
     }}
   /> */}
-  I am a web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do.
+  Full Stack Web Developer Working With Next Js, HTML,CSS,Express, WordPress,Woocommere,Magento2,Php with Mysql and Modern Framework to deliver exceptional customer experience.
 </p>
 
   </div>
@@ -235,7 +230,7 @@ export default function Home() {
   <div className="portfolio-container">
     <Image
       src={teanso}
-      width={400}
+      width={350}
       height={230}
       className="portfolio-image"
       alt="Picture of the author"
@@ -251,7 +246,7 @@ export default function Home() {
   <div className="portfolio-container">
     <Image
       src={kaandhal}
-      width={400}
+      width={350}
       height={230}
       className="portfolio-image"
       alt="Picture of the author"
@@ -267,7 +262,7 @@ export default function Home() {
   <div className="portfolio-container">
     <Image
       src={teanso}
-      width={400}
+      width={350}
       height={230}
       className="portfolio-image"
       alt="Picture of the author"
@@ -296,13 +291,13 @@ export default function Home() {
     <h4 className='role-company'>Full Stack Web Developer</h4>
     <h5 className='company-name'>Teanso technologies Pvt.Ltd  Feb 2023 - Present</h5>
     <p className='location-company'>Chennai,TamilNadu</p>
-    <p className='role-description'>I am a web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do.</p>
+    <p className='role-description'>A Full-Stack developer is a professional responsible for working on both front-end and back-end development processes. They design, develop, and maintain fully-fledged and functioning platforms with databases or servers.</p>
     </li>
     <li>
     <h4 className='role-company'>Full Stack Web Developer</h4>
     <h5 className='company-name'>BestWebMastersz  Oct 2022 - Jan 2023</h5>
     <p className='location-company'>Salem,TamilNadu</p>
-    <p className='role-description'>I am a web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do.</p>
+    <p className='role-description'>A Full-Stack Web Developer is responsible for designing, implementing, and maintaining web applications. This role involves working with both front-end and back-end technologies to create user-friendly and efficient web solutions.</p>
     </li>
   </ul>
  </div>

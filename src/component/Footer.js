@@ -12,9 +12,9 @@ export default function Footer() {
 
   <p className='contact-header'>Contact Me</p>
   
-<div className="col-sm-3"> 
+<div className="col-sm-2"> 
 </div>
-<div className="col-sm-3"> 
+<div className="col-sm-4"> 
 <div className='personal-mail'>
   <p className='mail-icon'> <Image
    src={mail}
@@ -25,8 +25,8 @@ export default function Footer() {
  /> &nbsp; shiyam312001@gmail.com</p>
 </div>
 </div>
-<div className="col-sm-3"> 
-<div className='personal-mail'>
+<div className="col-sm-4"> 
+<div className='personal-mobile'>
   <p className='mail-icon'> <Image
    src={mobile}
    width={20}
@@ -36,11 +36,11 @@ export default function Footer() {
  /> &nbsp; 8122315788</p>
 </div>
 </div>
-<div className="col-sm-3"> 
+<div className="col-sm-2"> 
 </div>
-<div className='col-sm-3'></div>
+<div className='col-sm-2'></div>
 <div className='col-sm-1'></div>
-<div className='col-sm-3'>
+<div className='col-sm-4'>
  <div className='personal-location'>
   <p className='mail-icon'> <Image
    src={location}

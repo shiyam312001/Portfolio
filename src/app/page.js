@@ -13,10 +13,14 @@ import mysql from '@/Image/mysql.png'
 import react from '@/Image/react.png'
 import teanso from '@/Image/teanso.png'
 import kaandhal from '@/Image/Kaandhal.png'
-
-
+import { Roboto } from 'next/font/google'
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 export default function Home() {
   return (
+    
     <>
 <div className='banner'>
     <div className="container">
@@ -24,8 +28,8 @@ export default function Home() {
 
   <div className="col-sm-4">
     <div className='personal-info'>
-    <p className='personal-role'> IM <span className='person-name'>Shiyam Lawrence</span><br></br>Full Stack Web Developer</p>
-       <button type="button" className="btn btn-outline-primary contact-me-btn"><a className='contact-me-btn' href='#contact'>Contact Me</a></button>
+    <p className='personal-role'> I`M <span className='person-name'>Shiyam Lawrence</span><br></br>Full Stack Web Developer</p>
+       <button type="button" className="btn btn-outline-primary contact-btn"><a className='contact-btn' href='#contact'>Contact Me</a></button>
   </div>
   </div>
   <div className="col-sm-8">
@@ -58,7 +62,7 @@ export default function Home() {
       margin: '5px 10px', // Adjust margin as needed
     }}
   /> */}
-  Full Stack Web Developer Working With Next Js, HTML,CSS,Express, WordPress,Woocommere,Magento2,Php with Mysql and Modern Framework to deliver exceptional customer experience.
+  I am a seasoned Full Stack Web Developer adept at harnessing Next.js, HTML, CSS, Express, WordPress, WooCommerce, Magento 2, PHP, and MySQL to create high-performance, visually appealing web solutions. With a focus on client satisfaction, I specialize in crafting tailored CMS experiences, seamless e-commerce platforms, and robust back-end systems. My commitment lies in delivering exceptional customer experiences by staying at the forefront of modern frameworks and industry best practices. Join me in the pursuit of innovative web solutions that leave a lasting impact.
 </p>
 
   </div>
@@ -197,7 +201,7 @@ export default function Home() {
    height={31}
    alt="Picture of the author"
  />
- <p>React.js</p>
+ <p>BootStrap</p>
   </div>
 </div>
 

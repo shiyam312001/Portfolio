@@ -1,9 +1,13 @@
 *{
-  font-family: "Adobe Caslon Pro", "Times New Roman", Times, serif !important;
+  font-family: 'Roboto' !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+body{
+  font-family: 'Roboto' !important;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar{
   background: #34353A !important;
- 
 }
 .navbar ul li a{
   color: #fff;
@@ -71,6 +75,7 @@ padding: 20px 40px;
 .skill-title{
   width: 100%;
   text-align: center;
+  padding: 10px 0 20px 0;
 }
 .Portfolio{
   background: #34353A !important;
@@ -125,14 +130,8 @@ padding: 20px 40px;
   color: #F0BF6C !important;
   border-radius: 8px;
 }
-#mail{
-  color: #fff !important; 
-  background-color: #000;
-}
-#mobile{
-  color: #fff; 
-  background-color: #000;
-}
+
+
 .personal-location{
   width: 100%;
   font-size: 18px;
@@ -145,7 +144,7 @@ padding: 20px 40px;
   color: #F0BF6C !important;
   border-radius: 8px;
   margin-top: 15px;
-  margin-left: 60px;
+  margin-left: 87px;
   
 }
 .hr-line{
@@ -229,12 +228,24 @@ padding: 20px 40px;
   background-color: #000; /* Change the color as needed */
   margin: 0 10px; /* Adjust the margin as needed */
 }
-#mobile{
-  background: #fff;
-}
-#mail{
-  background: #fff;
-}
+
 .contact-btn{
   text-decoration: none !important;
+}
+.contact-btn:hover{
+  color: #ffa50a;
+  background: #fff;
+  font-weight: 600;
+}
+.mail-icon{
+  margin-left:-1px;
+}
+
+.menu li a:hover{
+
+  color: #ffa50a;
+  font-weight: 500;
+
+  border-bottom: 2px solid #fff;
+
 }
